@@ -1,0 +1,113 @@
+body{
+    font-size: 20px;
+    overflow-x: hidden;
+    overflow-wrap: normal;
+    color: whitesmoke;
+    font-family: 'Flamenco', cursive;
+}
+header{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: sans-serif;
+    background: url('images/img.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.clearfix:after{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+}
+.row{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.main-nav{
+    float: right;
+
+}
+.main-nav li{
+
+    display: inline-block;
+    list-style: none;
+    margin-left: 50px;
+}
+.main-nav li a{
+    color: cornsilk;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.main-nav li a:hover{
+    border-bottom: 2px solid darkkhaki;
+}
+
+.main{
+    width: 1180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    color: darkkhaki;
+    font-size: 60px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 9px;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: #4caf50;
+    text-transform: uppercase;
+    border-radius: 200px;
+    transition: background-color 0.2s,border 0.2s,color 0.2s;
+}
+.btn-1{
+    background-color: transparent;
+    color: darkorchid;
+    margin-right: 15px;
+    border: 1px solid rebeccapurple;
+}
+.btn-1:hover{
+    background-color: darkkhaki;
+}
+.btn-2{
+    background-color: transparent;
+    color: darkorchid;
+    margin-right: 15px;
+    border: 1px solid rebeccapurple;
+}
+.btn-2:hover {
+    background-color: darkkhaki;
+}
+.anime{
+    animation: colorchangeacademico 1s infinite;
+}
+@keyframes colorchangeacademico{
+    0%{color: darkorchid}
+    25%{color: darksalmon}
+    50%{color: #06f13f}
+    75%{color: crimson}
+    100%{color: deepskyblue}
+}
+
+.div1{
+
+    display: inline-block;
+    list-style: none;
+    margin-left: 50px;
+    color: whitesmoke;
+    font-family: 'Flamenco', cursive;
+    font-size: 40px;
+    text-decoration-style: solid;
+
+
+}

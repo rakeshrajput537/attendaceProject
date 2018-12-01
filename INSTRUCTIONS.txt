@@ -1,0 +1,4 @@
+1. Create a user named 'weblab' with password 'weblab'
+2. Also create a database named 'weblab'
+3. Now import the 'weblab.sql' file included
+4. Website can now be accessed by going to 'index.php'
